@@ -24,7 +24,7 @@ public class Libro extends Escrito{
 	}
 	
 	public String toString() {
-		String texto = this.getOrigen() + "\n" + this.getAutor() + "\n" + this.getPaginas() + "\n" +
+		String texto = this.getOrigen() + "\n" + this.getTitulo() + "\n" + this.getAutor() + "\n" + this.getPaginas() + "\n" +
 						this.getCo_autor() + "\n" + this.getEditorial() + "\n" + this.getEdicion();
 		return texto;
 	}
