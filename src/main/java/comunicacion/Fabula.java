@@ -11,8 +11,8 @@ public class Fabula extends Escrito{
 		this.interpretacion = interpretacion;
 	}
 	
-	public int palabrasTotales(int factor) {
-		return this.getPaginas();
+	public int palabrasTotales(int p) {
+		return this.getPaginas() * p;
 	}
 	
 	public String interpretacion() {
